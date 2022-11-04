@@ -16,7 +16,7 @@ function SearchPage() {
   }, [dispatch]);
 
   return (
-    <div className="mt-[80px] container mx-auto">
+    <div className="mt-[80px] px-[40px]">
       <h1 className="text-4xl text-gray-800 font-bold">
         Search Result "{search}"
       </h1>
